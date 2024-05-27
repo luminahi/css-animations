@@ -55,21 +55,21 @@ body {
   width: 160px;
   height: 5px;
   border: 1px solid black;
-  animation: seconds 10s linear infinite;
+  animation: seconds 60s steps(60) infinite;
 }
 
 .minutes-hand {
   width: 180px;
   height: 10px;
   border: 2px solid black;
-  animation: minutes 20s linear infinite;
+  animation: minutes 3600s linear infinite;
 }
 
 .hours-hand {
   width: 120px;
   height: 15px;
   border: 2px solid black;
-  animation: hours 30s linear infinite;
+  animation: hours 43200s linear infinite;
 }
 
 @keyframes seconds {
